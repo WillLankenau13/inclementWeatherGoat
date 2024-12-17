@@ -31,8 +31,11 @@ A quarterback's Inclement Performance Rating (IPR) is the average of 4 standardi
 - Difference Scaled Rating: How well the QB played in inclement weather games compared to how well they played in non-inclement games, weighing games with higher inclement weather ratings more
 
 Each rating takes into account the average passer rating for the inclement weather score. 
+
 We ran a linear regression of passer rating against inclement weather score to get a predicted passer rating for each inclement weather score. 
+
 So, to get a quarterback's Absolute Rating, predict the passer ratings for each game using the abore regression. Then, calculate the residuals of their passer ratings for inclement weather games and take the mean. 
+
 Each rating is calculated with the residuals, instead of the raw passer rating. 
 
 After calculating each rating, standardize them and take the average to get a IPR for each quarterback. 
@@ -40,6 +43,7 @@ After calculating each rating, standardize them and take the average to get a IP
 # Findings
 
 We found that Brock Osweiler is the quarterback who has performed the best in inclement weather with an IPR of 1.74. Matt Flynn was second with 1.56 while Aaron Rodgers was third with 1.37. On the flip side, the quarterbacks who have perfomed the worst in inclement weather are Jay Fiedler, Joey Harrington, and Kirk Cousins, with IPRs of -2.02, -1.88, and -1.81 respectively. 
+
 It should be noted that although we only considered players with 4 or more inclement weather games, 4 games is still quite a small sample size. Out of the 36 quarterbacks who had 4 or more inclement weather games, only 9 had more than 10. Of the 3 best and 3 worst quarterbacks listed above, all but 1 had 4-6 inclement weather games; Rodgers had 18 inclement weather games. So, the ratings for 5 of the 6 players listed above could reasonably be attributed to their small sammple size rather than performing especially bad in inclement weather. 
 
 
