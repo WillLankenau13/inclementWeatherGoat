@@ -23,6 +23,8 @@ We gave each game a weather rating, based on the amount of precipitation, temper
 
 The weather rating is the sum of the 4 above scores. So, a game with moderate snow, temperature of 16 degrees Fahrenheit, and 14 mph winds would have a weather score of (12 + 12 + 1 + 2) = 27. 
 
+(Technically our weather ratings were an average of several weather ratings at different times from the same game)
+
 ### Inclement Performance Rating
 A quarterback's Inclement Performance Rating (IPR) is the average of 4 standardized ratings:
 - Absolute Rating: How well the QB played in inclement weather games
