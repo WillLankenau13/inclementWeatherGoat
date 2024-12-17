@@ -34,11 +34,11 @@ Each rating takes into account the average passer rating for the inclement weath
 
 We ran a linear regression of passer rating against inclement weather score to get a predicted passer rating for each inclement weather score. 
 
-So, to get a quarterback's Absolute Rating, predict the passer ratings for each game using the abore regression. Then, calculate the residuals of their passer ratings for inclement weather games and take the mean. 
+So, to get a quarterback's Absolute Rating, we predicted the passer ratings for each game using the above regression. Then, we calculated the residuals of their passer ratings for inclement weather games and took the mean. 
 
 Each rating is calculated with the residuals, instead of the raw passer rating. 
 
-After calculating each rating, standardize them and take the average to get a IPR for each quarterback. 
+After calculating each rating, we standardized them and took the average to get a IPR for each quarterback. 
 
 # Findings
 
