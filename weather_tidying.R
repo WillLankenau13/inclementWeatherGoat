@@ -39,12 +39,6 @@ g_weather_data <- weather_data %>%
             snowScore = mean(snowScore),
             weatherScore = mean(weather_score))
 
-inclement_weather <- g_weather_data %>% 
-  filter(weatherScore >= 10)
-
-#Percent inclement
-nrow(inclement_weather)/nrow(g_weather_data)
-
 #Weather Score histogram
 ggplot(data = g_weather_data) +
   geom_histogram(mapping = aes(x = weatherScore))
