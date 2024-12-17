@@ -21,7 +21,7 @@ We gave each game a weather rating, based on the amount of precipitation, temper
 - Wind Score: (windSpeed - 12)/2; 7 if above 26, 0 if below 12
 - Snow Score: 1 if light snow, 2 if moderate snow, 3 if heavy snow, 0 otherwise
 
-The weather rating is the sum of the 4 above scores. So, a game with moderate snow, temperature of 16 degrees Fahrenheit, and 14 mph winds would have a weather score of (12 + 12 + 1 + 2) = 27. 
+The weather rating is the sum of the 4 above scores. So, a game with moderate snow, temperature of 28 degrees Fahrenheit, and 14 mph winds would have a weather score of (12 + 6 + 1 + 2) = 21. 
 
 (Technically our weather ratings were an average of several weather ratings at different times from the same game)
 
