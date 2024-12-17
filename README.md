@@ -6,7 +6,7 @@ This repository contains the code for a project where we found the NFL Inclement
 # Data
 
 Weather data was downloaded from [this](https://github.com/ThompsonJamesBliss/WeatherData/tree/master) repository.
-Quarterback ratings were downloaded from [Stathead](Stathead.com)
+Quarterback ratings were downloaded from [Stathead](Stathead.com).
 
 
 # Methodology
