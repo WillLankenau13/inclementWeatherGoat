@@ -12,7 +12,7 @@ library("ggrepel")
 
 
 #Import data
-data <- read_csv("~/R Stuff/inclementWeatherGoat/for_analysis.csv") %>% 
+data <- read_csv("~/R Stuff/inclementWeatherGoat/Data/for_analysis.csv") %>% 
   rename("pr" = "Passer Rating") %>% 
   select(Name, date, HomeID, AwayID, HA, Outcome, Score, pr, date, conditionScore:weatherScore, StadiumName)
 
@@ -212,5 +212,5 @@ ggplot(weather_ratings, aes(overall_score, dif_win_pct, size = incl_c, color = i
 
 
 ####write csv####
-write_csv(weather_ratings, "~/R Stuff/inclementWeatherGoat/results.csv")
-write_csv(stadiums, "~/R Stuff/inclementWeatherGoat/inclement_by_stadium.csv")
+write_csv(weather_ratings, "~/R Stuff/inclementWeatherGoat/Data/results.csv")
+write_csv(stadiums, "~/R Stuff/inclementWeatherGoat/Data/inclement_by_stadium.csv")

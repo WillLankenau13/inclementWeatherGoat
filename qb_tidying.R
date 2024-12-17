@@ -1,17 +1,8 @@
-library("ggplot2")
 library("tidyverse")
-library("lubridate")
-library("incidence")
-library("stringr")
-library("janitor")
-library("readr")
-library("dplyr")
-library("modelr")
-library(leaps)
 
 #Import data
-d_qb_games <- read_csv("~/R Stuff/inclementWeatherGoat/qb_games.csv")
-schedule <- read_csv("~/R Stuff/inclementWeatherGoat/tidy_schedule.csv")
+d_qb_games <- read_csv("~/R Stuff/inclementWeatherGoat/Data/qb_games.csv")
+schedule <- read_csv("~/R Stuff/inclementWeatherGoat/Data/tidy_schedule.csv")
 
 #
 qb_games <- d_qb_games %>% 
@@ -48,7 +39,7 @@ qb_stats <- rbind(home_qb, away_qb) %>%
   rename("HA" = "Home or Away")
   
 #write_csv
-write_csv(qb_stats, "~/R Stuff/inclementWeatherGoat/qb_stats.csv")
+write_csv(qb_stats, "~/R Stuff/inclementWeatherGoat/Data/qb_stats.csv")
 
 
 

@@ -1,17 +1,9 @@
-library("ggplot2")
 library("tidyverse")
-library("lubridate")
-library("incidence")
-library("stringr")
-library("janitor")
-library("readr")
-library("dplyr")
-library("modelr")
-library(leaps)
+
 
 #Import Data
-d_schedule <- read_csv("~/R Stuff/inclementWeatherGoat/NFLSchedule.csv")
-team_code <- read_csv("~/R Stuff/inclementWeatherGoat/team_code.csv")
+d_schedule <- read_csv("~/R Stuff/inclementWeatherGoat/Data/NFLSchedule.csv")
+team_code <- read_csv("~/R Stuff/inclementWeatherGoat/Data/team_code.csv")
 
 colnames(team_code) <- c("Team", "ID")
 
@@ -33,7 +25,7 @@ schedule <- sche %>%
 
 
 #Write Csv
-write_csv(schedule, "~/R Stuff/inclementWeatherGoat/tidy_schedule.csv")
+write_csv(schedule, "~/R Stuff/inclementWeatherGoat/Data/tidy_schedule.csv")
 
 
 

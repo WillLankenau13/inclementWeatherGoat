@@ -1,18 +1,10 @@
-library("ggplot2")
 library("tidyverse")
-library("lubridate")
-library("incidence")
-library("stringr")
-library("janitor")
-library("readr")
-library("dplyr")
-library("modelr")
-library(leaps)
+
 
 #Import data
-d_weather_data <- read_csv("~/R Stuff/inclementWeatherGoat/weather_data.csv") 
-d_weather_games <- read_csv("~/R Stuff/inclementWeatherGoat/weather_games.csv")
-d_stadium_data <- read_csv("~/R Stuff/inclementWeatherGoat/stadium_data.csv")
+d_weather_data <- read_csv("~/R Stuff/inclementWeatherGoat/Data/weather_data.csv") 
+d_weather_games <- read_csv("~/R Stuff/inclementWeatherGoat/Data/weather_games.csv")
+d_stadium_data <- read_csv("~/R Stuff/inclementWeatherGoat/Data/stadium_data.csv")
 
 
 #Weather Scores
@@ -79,6 +71,7 @@ stadiums <- combined %>%
   distinct(StadiumName)
 
 
-write_csv(stadiums, "~/R Stuff/inclementWeatherGoat/stadium_names.csv")
-write_csv(combined, "~/R Stuff/inclementWeatherGoat/tidy_weather.csv")
+#write csv
+write_csv(stadiums, "~/R Stuff/inclementWeatherGoat/Data/stadium_names.csv")
+write_csv(combined, "~/R Stuff/inclementWeatherGoat/Data/tidy_weather.csv")
 

@@ -1,18 +1,9 @@
-library("ggplot2")
 library("tidyverse")
-library("lubridate")
-library("incidence")
-library("stringr")
-library("janitor")
-library("readr")
-library("dplyr")
-library("modelr")
-library(leaps)
 
 #Import data
-d_tidy_weather <- read_csv("~/R Stuff/inclementWeatherGoat/tidy_weather.csv") 
-d_stadiums <- read_csv("~/R Stuff/inclementWeatherGoat/team_stadiums.csv") 
-d_qb_stats <- read_csv("~/R Stuff/inclementWeatherGoat/qb_stats.csv") 
+d_tidy_weather <- read_csv("~/R Stuff/inclementWeatherGoat/Data/tidy_weather.csv") 
+d_stadiums <- read_csv("~/R Stuff/inclementWeatherGoat/Data/team_stadiums.csv") 
+d_qb_stats <- read_csv("~/R Stuff/inclementWeatherGoat/Data/qb_stats.csv") 
 
 #select rows
 qb_stats <- d_qb_stats %>% 
@@ -28,7 +19,8 @@ combined <- left_join(tidy_weather, d_stadiums, by = c("StadiumName")) %>%
   inner_join(qb_stats, by = c("HomeID", "date"))
 
 
-write_csv(combined, "~/R Stuff/inclementWeatherGoat/for_analysis.csv")
+#write csv
+write_csv(combined, "~/R Stuff/inclementWeatherGoat/Data/for_analysis.csv")
 
 
 
