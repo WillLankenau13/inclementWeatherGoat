@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the code for a project where we found the NFL Inclement Weather Goat: the NFL quarterback who has performed the best in inclement weather. This was a part of a small group project for a sports statistics class in my senior year of high school. Our group came up with the methodology, but I wrote the code in this repository. 
+This repository contains the code for a project where we found the NFL Inclement Weather Goat: the NFL quarterback who has performed the best in inclement weather. This was a part of a small group project for a sports statistics class in my senior year of high school. Our group came up with the methodology, while I wrote the code in this repository. 
 
 
 # Data
