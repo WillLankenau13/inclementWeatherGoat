@@ -21,7 +21,7 @@ We gave each game a weather rating, based on the amount of precipitation, temper
 - Wind Score: (windSpeed - 12)/2; 7 if above 26, 0 if below 12
 - Snow Score: 1 if light snow, 2 if moderate snow, 3 if heavy snow, 0 otherwise
 
-The weather rating is the sum of the 4 above scores. So, a game with moderate snow, temperature of 28 degrees Fahrenheit, and 14 mph winds would have a weather score of (12 + 6 + 1 + 2) = 21. 
+The weather rating is the sum of the 4 above scores. So, a game with moderate snow, a temperature of 28 degrees Fahrenheit, and 14 mph winds would have a weather score of (12 + 6 + 1 + 2) = 21. 
 
 (Technically our weather ratings were an average of several weather ratings at different times from the same game)
 
@@ -40,13 +40,13 @@ So, to get a quarterback's Absolute Rating, we predicted the passer ratings for 
 
 Each rating is calculated with the residuals, instead of the raw passer rating. 
 
-After calculating each rating, we standardized them and took the average to get a IPR for each quarterback. 
+After calculating each rating, we standardized them and took the average to get an IPR for each quarterback. 
 
 # Findings
 
-We found that Brock Osweiler is the quarterback who has performed the best in inclement weather with an IPR of 1.74. Matt Flynn was second with 1.56 while Aaron Rodgers was third with 1.37. On the flip side, the quarterbacks who have perfomed the worst in inclement weather are Jay Fiedler, Joey Harrington, and Kirk Cousins, with IPRs of -2.02, -1.88, and -1.81 respectively. 
+We found that Brock Osweiler is the quarterback who has performed the best in inclement weather with an IPR of 1.74. Matt Flynn was second with 1.56 while Aaron Rodgers was third with 1.37. On the flip side, the quarterbacks who have performed the worst in inclement weather are Jay Fiedler, Joey Harrington, and Kirk Cousins, with IPRs of -2.02, -1.88, and -1.81 respectively. 
 
-It should be noted that although we only considered players with 4 or more inclement weather games, 4 games is still quite a small sample size. Out of the 36 quarterbacks who had 4 or more inclement weather games, only 9 had more than 10. Of the 3 best and 3 worst quarterbacks listed above, all but 1 had 4-6 inclement weather games; Rodgers had 18 inclement weather games. So, the ratings for 5 of the 6 players listed above could reasonably be attributed to their small sammple size rather than them inherently performing especially good or bad in inclement weather. 
+It should be noted that although we only considered players with 4 or more inclement weather games, 4 games is still quite a small sample size. Out of the 36 quarterbacks who had 4 or more inclement weather games, only 9 had more than 10. Of the 3 best and 3 worst quarterbacks listed above, all but 1 had 4-6 inclement weather games; Rodgers had 18 inclement weather games. So, the ratings for 5 of the 6 players listed above could reasonably be attributed to their small sample size rather than them inherently performing especially well or poorly in inclement weather. 
 
 
 # Info
