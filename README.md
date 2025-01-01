@@ -12,7 +12,7 @@ Quarterback ratings were downloaded from [Stathead](Stathead.com).
 # Methodology
 
 ### Quarterback Rating
-We used a quarterbacks passer rating to determine how well they played in a given game. 
+We used a quarterback's passer rating to determine how well they played in a given game. 
 
 ### Weather Rating
 We gave each game a weather rating, based on the amount of precipitation, temperature, wind, and whether it was snowing. Games considered "inclement weather games" had weather ratings greater 6. The ratings were determined as follows. 
