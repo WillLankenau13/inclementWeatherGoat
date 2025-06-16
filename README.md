@@ -48,6 +48,9 @@ We found that Brock Osweiler is the quarterback who has performed the best in in
 
 It should be noted that although we only considered players with 4 or more inclement weather games, 4 games is still quite a small sample size. Out of the 36 quarterbacks who had 4 or more inclement weather games, only 9 had more than 10. Of the 3 best and 3 worst quarterbacks listed above, all but 1 had 4-6 inclement weather games; Rodgers had 18 inclement weather games. So, the ratings for 5 of the 6 players listed above could reasonably be attributed to their small sample size rather than them inherently performing especially well or poorly in inclement weather. 
 
+# Acknowledgements
+
+I worked on this project in David Stein's sports statistics class at Montgomery Blair High School. My groupmates were Vinay Raman, Eric Wang, and Lydia Chan.
 
 # Info
 
