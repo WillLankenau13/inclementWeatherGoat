@@ -50,7 +50,7 @@ It should be noted that although we only considered players with 4 or more incle
 
 # Acknowledgements
 
-I worked on this project in David Stein's sports statistics class at Montgomery Blair High School. My groupmates were Vinay Raman, Eric Wang, and Lydia Chan.
+I worked on this project in David Stein's sports statistics class at Montgomery Blair High School. 
 
 # Info
 
